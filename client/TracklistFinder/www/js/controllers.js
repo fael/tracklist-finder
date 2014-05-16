@@ -6,7 +6,7 @@ angular.module('starter.controllers', [])
 
 .factory('tracklistFactory', function($http, $q) {
     return {
-        apiPath: 'http://localhost:2222/',
+        apiPath: 'http://tf-server.rafael-santos.com/',
         getTracklists: function() {
             var deferred = $q.defer();
 
