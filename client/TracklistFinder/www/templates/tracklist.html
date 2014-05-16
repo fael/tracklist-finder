@@ -1,0 +1,10 @@
+<ion-view title="Tracklist">
+  <ion-content class="has-header">
+    <h1>{{ fullTracklist.title }}</h1>
+    <ion-list>
+      <ion-item ng-repeat="track in fullTracklist.tracks">
+        {{ track.title }}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

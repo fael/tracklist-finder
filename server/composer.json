@@ -1,0 +1,14 @@
+{
+    "name": "rafael/1001searcher",
+    "description": "WebApp for finding tracklist from setmix/radioshow/liveshow you are listening to\"",
+    "authors": [
+        {
+            "name": "Rafael Santos Sá",
+            "email": "rafa@rafael-santos.com"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "1.0.*",
+        "silex/silex": "~1.1"
+    }
+}
